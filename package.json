@@ -4,11 +4,7 @@
   "description": "This is a Discord bot that can generate ninjas for use in NJRPG scenarios and daily life in the scouting department!",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    // "lint": "eslint --fix $npm_config_src",
-    // "deploy": "node ./deploy/globalDeploy.js",
-    // "build": "node ./deploy/localDeploy.js",
-    // "start": "node index.js"
+    "test": "jest"
   },
   "author": "17tia",
   "license": "ISC",
