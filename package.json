@@ -6,8 +6,8 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint --fix $npm_config_src",
-    "deploy": "node ./deploy/globalDeploy.js",
-    "build": "node ./deploy/localDeploy.js",
+    "gbuild": "node ./deploy/localDeploy.js",
+    "build": "node ./deploy/globalDeploy.js",
     "start": "node index.js"
 
   },
