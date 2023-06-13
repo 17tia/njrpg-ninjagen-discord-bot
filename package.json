@@ -2,23 +2,22 @@
   "name": "njrpg-ninjagen-discord-bot",
   "version": "0.0.1",
   "description": "This is a Discord bot that can generate ninjas for use in NJRPG scenarios and daily life in the scouting department!",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "jest",
     "lint": "eslint --fix $npm_config_src",
-    "gbuild": "node ./deploy/localDeploy.js",
-    "build": "node ./deploy/globalDeploy.js",
-    "start": "node index.js"
-
+    "build": "node ./src/deploy.js",
+    "start": "node ./src/index.js"
   },
   "author": "17tia",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.4.0",
     "discord.js": "^14.7.1",
-    "dotenv": "^16.0.3",
-    "eslint": "^8.29.0"
+    "dotenv": "^16.0.3"
   },
   "devDependencies": {
+    "eslint": "^8.42.0",
     "jest": "^29.3.1"
   }
 }
