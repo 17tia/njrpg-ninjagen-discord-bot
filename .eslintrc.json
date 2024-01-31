@@ -2,6 +2,9 @@
   "extends": "eslint:recommended",
   "env": {
     "es2022": true,
-    "node":true
+    "node": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
   }
 }

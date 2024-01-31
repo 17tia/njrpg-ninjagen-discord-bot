@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint --fix $npm_config_src",
-    "build": "node ./src/deploy.js",
+    "regist": "node ./src/deploy.js",
+    "build": "tsc -p .",
     "start": "node ./src/index.js"
   },
   "author": "17tia",
@@ -17,7 +18,10 @@
     "dotenv": "^16.0.3"
   },
   "devDependencies": {
+    "@types/node": "^20.11.15",
     "eslint": "^8.42.0",
-    "jest": "^29.3.1"
+    "jest": "^29.3.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
   }
 }
